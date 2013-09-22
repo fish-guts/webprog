@@ -1,8 +1,8 @@
 <?php
 
-    $recipient = "severin.mueller@gmx.net";
-    $subject = "fourteen words";
-    $body = "Adolf H, superstar!!!";
+    $recipient = "xobe@zhaw.ch";
+    $subject = "Test E-Mail";
+    $body = "Hoi Jaim\n\n, das ist meine Test E-Mail, hoffentlich kommts an. ";
     
      if (mail($recipient, $subject, $body)) {
          echo("<p>Mail erfolgreich gesendet</p>");
