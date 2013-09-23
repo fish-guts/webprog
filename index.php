@@ -1,13 +1,20 @@
 <?php
 
-    $recipient = "xobe@zhaw.ch";
-    $subject = "Test E-Mail";
-    $body = "Hoi Jaim\n\n, das ist meine Test E-Mail, hoffentlich kommts an. ";
-    
-     if (mail($recipient, $subject, $body)) {
-         echo("<p>Mail erfolgreich gesendet</p>");
-     } else {
-         echo("<p>Beim Senden der Mail ist ein Fehler aufgetreten");
-     }
+    $from = 'severinmueller1983@gmail.com';
+    $to = 'xobe@zhaw.ch';
+    $subject = 'Hi!';
+    $body = "Hi Jaime,\n\nDies ist eine TestMail, generiert von meinem PHP Script\n\nGruess Severin";
+
+    $header = 'From: Severin Müller' . "\r\n" .
+    'Reply-To: severinmueller1983@gmail,com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+
+    if (!mail($to, $subject, $body,$headers)) {
+        echo("<p>Es ist ein Fehler aufgetreten!!!");
+    } else {
+        echo('<p>Message successfully sent!</p>');
+    }
 
 ?>
+
