@@ -1,0 +1,9 @@
+Name          : Severin
+E-Mail        : mail@example
+Site          : https://www.test.ch
+Datum         : 10.09.2013
+Fehlertyp     : bugCode
+Priorität     : 3
+Rückruf       : yes
+Reproduzierbar: no
+Beschreibung  : test bug
