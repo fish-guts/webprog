@@ -10,7 +10,7 @@
 
 <html>
 <head>
-    <title>Submit us your Bug!</title>
+    <title>Severin's Blog</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style/style.css" type="text/css" media="all" />
 </head>
