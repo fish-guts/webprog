@@ -1,0 +1,19 @@
+Aufgabe 5.)
+
+Beim Optimistischen Locking  wird mehreren Benutzern den gleichzeitigen Zugriff auf den gleich Datensatz gewährt. 
+Wenn aber ein Artikel von einem der Benutzer geändert wurde, so bekommen andere Nutzer, die denselben Datensatz 
+fast gleichzeitig zu ändern versuchen, eine Benachrichtigung, dass der Artikel verändert (updated) wurde. 
+Der User, der den Datensatz verändert hat ist privilegiert. Wenn der Nutzer den Datensatz verlässt, wird ihm sein 
+Privileg wieder entzogen, und ein nächster Anwender erhält Schreibzugriff.
+
+Aufgabe 6.)
+
+Ein Deadlock ist ein Zustand, bei dem Prozesse auf Betriebsmittel warten (wie z.B Rechenzeit). Eine Definiton kann lauten:
+
+Eine Menge von Prozessen befindet sich in einem Deadlock, wenn jeder dieser Prozesse aif ein Reignis wartet, das nur ein anderer Prozess aus dieser Menge verursacht hat. 
+
+Das heisst also, das hier etwas "verklemmt" ist, also ein Deadlock vorliegt. 
+
+Aufgabe 7.)
+
+Ein Eintrag wird nicht nochmals hinzugefügt (wenn z.B. mehrere User den gleichen Eintrag hinzufügen wollen.
