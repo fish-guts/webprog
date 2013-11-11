@@ -1,0 +1,17 @@
+2013/11/11 23:52:11 [error] [php] Undefined variable: time (C:\xampp\htdocs\webprog\uebungen\09\helloworld\protected\views\message\goodbye.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\webprog\yii\framework\web\CController.php(869): MessageController->renderFile()
+#1 C:\xampp\htdocs\webprog\yii\framework\web\CController.php(782): MessageController->renderPartial()
+#2 C:\xampp\htdocs\webprog\uebungen\09\helloworld\protected\controllers\MessageController.php(13): MessageController->render()
+#3 C:\xampp\htdocs\webprog\yii\framework\web\actions\CInlineAction.php(49): MessageController->actionGoodbye()
+#4 C:\xampp\htdocs\webprog\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\webprog\yii\framework\web\CController.php(286): MessageController->runAction()
+#6 C:\xampp\htdocs\webprog\yii\framework\web\CController.php(265): MessageController->runActionWithFilters()
+#7 C:\xampp\htdocs\webprog\yii\framework\web\CWebApplication.php(282): MessageController->run()
+#8 C:\xampp\htdocs\webprog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\webprog\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\webprog\uebungen\09\helloworld\index.php(13): CWebApplication->run()
+REQUEST_URI=/webprog/uebungen/09/helloworld/index.php?r=message/goodbye
+in C:\xampp\htdocs\webprog\uebungen\09\helloworld\protected\views\message\goodbye.php (10)
+in C:\xampp\htdocs\webprog\uebungen\09\helloworld\protected\controllers\MessageController.php (13)
+in C:\xampp\htdocs\webprog\uebungen\09\helloworld\index.php (13)
